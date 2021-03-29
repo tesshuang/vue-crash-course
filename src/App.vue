@@ -46,5 +46,8 @@ export default {
   border: 2px solid darkblue;
   min-height: 500px;
   padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 </style>

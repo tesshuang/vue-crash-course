@@ -2,6 +2,7 @@
   <footer>
     <p>Copyright @{{ currentYear }}</p>
     <router-link to="/about">About</router-link>
+    <router-link to="/counter">Counter</router-link>
   </footer>
 </template>
 
@@ -19,6 +20,7 @@ export default {
 <style scoped>
 a {
   color: #333;
+  margin: 0 12px;
 }
 footer {
   margin-top: 30px;
